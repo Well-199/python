@@ -1,29 +1,29 @@
-python3 --version
+#### python3 --version
 
-python -m venv env
+#### python -m venv env
 
-source env/bin/activate
+#### source env/bin/activate
 
-deactivate
+#### deactivate
 
-pip install django
+#### pip install django
 
-pip freeze > requirements.txt
+#### pip freeze > requirements.txt
 
-django-admin startproject config .
+#### django-admin startproject config .
 
-python manage.py startapp app
+#### python manage.py startapp app
 
-python manage.py collectstatic
+#### python manage.py collectstatic
 
-sudo apt-get install libpq-dev python-dev
+#### sudo apt-get install libpq-dev python-dev
 
-pip install pyscopg2
+#### pip install pyscopg2
 
-Para Linux ou se der erro no mac
+#### Para Linux ou se der erro no mac
 
-pip install psycopg2-binary
+#### pip install psycopg2-binary
 
-python3 manage.py runserver
+#### python3 manage.py runserver
 
-pip install python-dotenv
+#### pip install python-dotenv
